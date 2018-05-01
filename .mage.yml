@@ -1,0 +1,19 @@
+magephp:
+    environments:
+        production:
+            user: webanthony
+            from: ./
+            host_path: ~/www
+            exclude:
+                - ./backup/*
+                - ./cache/*
+                - ./images/*
+                - ./logs/*
+                - ./tmp/*
+            hosts:
+                - anthonytournier.fr
+            pre-deploy:
+            on-deploy:
+            on-release:
+            post-release:
+            post-deploy:

@@ -15,6 +15,5 @@ user/accounts/*
 user/data/*
 user/config/*
 user/pages/*
-.mage.yml
 composer.lock
 .sass-cache
