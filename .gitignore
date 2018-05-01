@@ -6,11 +6,17 @@ CONTRIBUTING.md
 LICENSE.txt
 README.md
 tmp/*
+!tmp/.gitkeep 
 logs/*
+!logs/.gitkeep 
 cache/*
+!cache/.gitkeep 
 backup/*
+!backup/.gitkeep 
 assets/*
+!assets/.gitkeep 
 images/*
+!images/.gitkeep 
 user/accounts/*
 user/data/*
 user/config/*
